@@ -1,0 +1,761 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* outline: 1px solid red; */
+}
+#one .video-bg {
+  height: 100vh;
+  min-height: 520px;
+  max-height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#one {
+   padding-top: 80px;
+}
+#one h3 {
+  font-size: clamp(28px, 6vw, 86px);
+  line-height: 1.2;
+  text-align: center !important;
+  margin-left: 92px !important;
+   margin-right: 92px !important;
+}
+@media (max-width: 767px) {
+  #one button {
+    font-size: 14px;
+    padding: 12px 22px;
+  }
+
+  #one svg {
+    display: none;
+  }
+
+  .buttons {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  #six img ,#two img ,#four svg ,#seven img {
+    transform: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ }
+@media (max-width:925px) {
+  #one h1,#one h3{
+    font-weight: 200;
+    text-align: center !important;
+  }
+  #one{
+    padding-top: 34px;
+  }
+}
+html , body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+@media (max-width: 1085px) {
+#one ,#one h2,#one  h3,#one  p ,#two h2,#three h2,#three h5,#three p,#six h2,#six h3,#six p,#seven h2,#seven h3,#seven p,#seven h4{
+   text-align: left !important;
+}
+#nine h2{
+  text-align: center;
+}
+}
+ #one h1 {
+  /* position: relative; */
+  display: inline-block;
+   font-size: clamp(14px, 2.5vw, 18px);
+   
+}
+ #one h1::after {
+  content: "";
+  display: block;
+  width: 50%;         
+  height: 3px;          
+  background-color: #fda800; 
+  margin: 5px auto 0;   
+     margin: 10px auto 0; 
+}
+.navbar{
+    background-color: white;
+}
+.navbar .container-fluid{
+    padding:0px 40px 0px 40px;   
+}
+.navbar .dropdown-item{
+  background-color: black;
+  color: white;
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.navbar .dropdown-item:hover{
+  color: #fda800;
+  background-color: white;
+}
+.navbar-brand img {
+  height: 58px;
+}
+.navbar ul li a , .navbar button  {
+    font-family: "Sofia Pro", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 13px 20px 13px 20px !important;
+}
+.navbar .nav-link:hover {
+    color: #fda800;
+}
+.navbar button{
+    border: 2px solid #0F1821;
+        border-radius: 100px;
+        margin-left: 15px;
+        padding: 13px 20px;
+}
+.navbar button:hover{
+    background-color: #fda800;
+}
+.video-bg {
+  position: relative;
+  width: 100%;
+  height: 500px; 
+  overflow: hidden; 
+}
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: 0;
+   max-height: calc(100vh - 60vh);
+}
+.video-bg .content {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  text-align: center;
+  padding: 0 20px;
+}
+.video-bg {
+  height: 130vh;        
+  min-height: 400px;  
+  max-height: 900px;   
+}
+
+.video-bg .content h1 {
+  color: #ffffff; 
+    font-family: "Sofia Pro", Sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+   display: inline-block; 
+  
+  padding-bottom: 10px;
+  
+
+}
+.content h3{
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: "Sofia Pro", Sans-serif;
+    font-size: 86px;
+    font-weight: 700;
+    line-height: 90px;
+}
+#one button{
+    padding: 14px 30px 14px 30px;
+    font-family: "Sofia Pro", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 23px;
+    letter-spacing: 1px;
+    border-radius: 90px 90px 90px 90px;
+    border: 2px solid black;
+}
+.buttons{
+    padding-top: 52px;padding-bottom: 80px;
+}
+#one svg{
+    height: 16px;
+    width: 16px;
+}
+#one button:hover{
+    color: white;
+    background-color: #fda800;
+}
+#two img{
+  width: 100%;}
+.twoo{
+  border-bottom: 4px solid #fda800;
+  padding-bottom: 17px;
+  padding-top: 15px;
+}
+ @media (max-width:991px) {
+  #two .btn svg{
+    display: none !important;
+  }
+  #two .btn{
+    text-align: center !important;
+  
+  }
+  
+ }
+.all{
+  background-image: url(https://tenxusa.com/wp-content/uploads/2025/12/background-white-pattern.png);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: auto;
+}
+.all{
+  padding: 90px 0px 150px 0px;
+}
+#two h2{
+      color:black;
+    font-family: "Sofia Pro", Sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+}
+#two p{
+  color: black;
+  text-align: left;
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 15px 0px 0px 0px;
+}
+#two h3{
+    text-align: left;
+  color: black;
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 62px;
+    margin: 54px 0px 15px 0px;
+}
+.second{
+  padding-top: 124px;
+}
+ #two .second h2 {
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+color: black;white-space: nowrap;
+}
+.ms-auto{
+
+  text-align: end;
+}
+.second button{
+  background-color: black;
+  color: white;
+    font-family: "Sofia Pro", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 23px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 90px 90px 90px 90px;
+    padding: 14px 30px 14px 30px;
+}
+.second button:hover{
+  background-color: white;
+  color: black;
+}
+#three img , #five img{
+  height: 250px;
+  width: 420px;
+}
+#three h3{
+         font-family: "Sofia Pro", Sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    color: black;
+    text-align: left;
+}
+.card{
+  border-radius: 0px;
+}
+.new-box{
+  display: inline-flex;
+  
+}
+.icons{
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+.boxx:hover{
+background-color: #fda800;
+}
+.icons svg path{
+  fill: #fda800; 
+  margin: auto;  
+}
+.icons:hover svg path{
+  fill: #000000;   
+  stroke: #000000;
+}
+.boxx{
+  width: 100%;
+  background-color: black;
+  border-radius: 2px solid black;
+  padding: 10px 10px 10px 10px;
+}
+#four {
+  background-color: #fda800;
+  padding: 80px 0px 80px 0px;
+}
+#four h2{
+      font-family: "Sofia Pro", Sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  text-align: left;
+
+  }
+  #four span{
+  border-bottom: 4px solid white;
+padding-bottom: 15px;
+  }
+  #four svg{
+    height: 70%;
+    margin: auto;
+    width: 70%;
+    transform: translateY(150px);
+  }
+ 
+#four svg path{
+  fill: white;
+}
+#four .unique h5{
+      font-family: "Sofia Pro", Sans-serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 62px;
+    margin: 25px 0px 15px 0px;
+    color: white;
+  text-align: left;
+  
+}
+#four h5{
+    margin: 8px 0px 16px 0px;
+  text-align: left;
+}
+#four p{
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0px 0px 0px;
+    color: white;
+  text-align: left;
+}
+#five , #seven{
+  background-image: url(https://tenxusa.com/wp-content/uploads/2025/12/background-white-pattern.png);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: auto;
+}
+.one-card{
+  background-color:#001f3b ;
+}
+.one-card p{
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0px 0px 0px;
+    color: white;
+    text-align:"left";
+}
+.one-card h3{
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 62px;
+    margin: 15px 0px 15px 0px;
+    color: white;
+    text-align:"left";
+}
+.one-card{
+  padding: 40px 40px 40px 40px;
+}
+.one-card span{
+  border-bottom: 4px solid #fda800;
+  padding-bottom: 3vh;
+}
+.one-card h2{
+  color: white;
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-align:"left";
+}
+#five{
+  padding: 96px 0px 96px 80px;
+}
+@media (max-width:766px) {
+  #five .card-onee ,#three .card-oonne{
+display: none;
+  }
+#three .card{
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+
+   }
+  
+}
+#five .row{
+  display: flex;
+}
+.boxxx{
+ background-color: white;
+    width: 34px;
+    text-align: center;
+    display: inline-block;
+  margin: 0px 2px 0px 2px;
+    height: 32px;text-align: center;
+}
+.neww-box{
+  text-align: right;
+}
+.boxxx .iconss svg{
+  height: 16px;
+  width: 16px;
+}
+#six{
+  background-color: #001f3b;
+  padding:80px 0px 80px 0px;
+  text-align: right;
+  
+}
+
+#six p{
+      font-family: "Sofia Pro", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0px 0px 0px;
+    color: white;
+    text-align: right;
+
+}
+#six b,#six strong{
+  color: white;
+ 
+}
+#six h3{
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 62px;
+    margin: 15px 0px 15px 0px;
+    color: white;
+    text-align: right;
+}
+#six h2{
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    text-align: right;
+}
+#Six ul li{
+ list-style: circle;
+
+}
+ul li::marker {
+  color: black;        
+ 
+}
+#seven h3{
+  margin: 8px 0px 16px 0px;
+}
+
+#seven{
+  padding: 60px 40px 60px 40px;
+}
+#six img{
+  height: 397px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 586px;animation: move 2s 1 alternate;
+  transform: translateY(250px);
+}
+@keyframes move {from{
+  transform: translateX(400px);
+}
+  to{
+    transform: translateX(0);
+  }
+}
+.column{
+  animation:left 1s 1 ease-out;
+}
+@keyframes left {from{
+  transform: translateX(-100%);
+}
+  to{
+    transform: translateX(0);
+  }
+}
+#seven .order-md-1 img{
+height: 465px;
+width: 465px;
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateY(120px);
+}
+ #seven h4{
+  text-align: left !important;
+    margin: 8px 0px 10px 0px;
+}
+#seven h2{
+      font-family: "Sofia Pro", Sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+#seven h2 span ,#six h2 span {
+ border-bottom: 2px solid #fda800;
+ padding-bottom: 9px;
+}
+#seven p{
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 10px 0px 0px 0px;
+    text-align: left;
+}
+#eight{
+  background-color: #001f3b;
+  padding: 80px 0px 80px 0px;
+}
+#eight h2{
+  text-align: center;
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+}
+#eight ul li {
+  list-style: none;
+  display: flex;
+}
+#eight ul li a svg{
+  height: 28px;
+  width: 28px;
+  text-decoration: none;
+
+}
+.text{
+  margin-bottom: 15px;
+  margin-top: 18px;
+}
+#eight h5 ,#eight h6 {
+  color:white;
+  text-align: center;
+}
+#eight p{
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+
+#eight svg path{
+fill: #fda800;
+}
+#nine{
+  background-image: url(https://tenxusa.com/wp-content/uploads/2025/12/background-white-pattern.png);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: auto;
+    padding: 80px 0px 80px 0px;
+}
+#nine h2{
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+}
+#nine .btn{
+color:black;
+background-color: white;
+font-family: "Sofia Pro", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 23px;
+    letter-spacing: 1px;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-radius: 90px 90px 90px 90px;
+    padding: 14px 30px 14px 30px;
+}
+#nine .contents{
+     display: flex;
+  flex-wrap: wrap; 
+  /* justify-content: center; */
+}
+#nine .btn:hover{
+  color: white;
+  background-color: black;
+}
+#nine .btn svg{
+  height: 13px;
+  width: 13px;
+}
+#nine button:hover svg path {
+  fill: white;
+}
+#nine .block{
+  width: 100%;
+  box-shadow: #000000;
+ 
+  padding: 5px 0px 5px 0px;
+  /* background-color: white; */
+}
+ #nine .block h4{
+     font-family: "Sofia Pro", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: black;
+    
+  }
+  .accordion{
+  border-radius: 14px 14px 14px 14px;
+  padding: 0px 25px 18px 25px;
+
+}
+.accordion-item p{
+  background: transparent !important;
+}
+#ten {
+  background-color: #0f1821;
+  padding: 65px 0px 65px 0px;
+}
+.footer{
+ max-height:calc(100vh - 60px) ;
+
+}
+#ten img {
+  filter: brightness(50%) saturate(0%) contrast(100%) grayscale(50%);
+  width: 127px;
+  height: 90px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#ten ul li a{
+  font-family: "Sofia Pro", Sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px 35px 0px;
+   
+  }
+  #ten ul li{
+  list-style: none;
+  margin: 0px 32.500px 0px 32.500px;
+
+}
+.icon-items svg{
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  margin: auto;
+}
+#ten ul li a:hover{
+color: #fda800;
+}
+.rounded-circle{
+  width: 35px;
+  height: 35px;
+  
+}
+
+
+.icon-items svg:hover path {
+  fill: white;
+}
+
+
+.blog:hover{
+  background-color: #fda800;
+  transform: translateY(-5px);
+}
+.blog{
+  background-color: #D0CFCF;
+}
+#ten p{
+  font-family: "Sofia Pro", Sans-serif;
+    font-weight: 400;
+    color:#D0CFCF ;
+    text-align: center;
+}
+#ten p:hover{
+  color: #fda800;
+}
+#ten h6{
+  color: white;
+}
+#ten ul {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 30px;
+}
+.accordion-body { padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+    background-image: url(https://tenxusa.com/wp-content/uploads/2025/12/background-white-pattern.png);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: auto;
+    box-shadow: none;}
+
+
